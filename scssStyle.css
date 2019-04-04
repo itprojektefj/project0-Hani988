@@ -1,0 +1,22 @@
+tr th, li a {
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  margin: 10px;
+}
+
+h1 {
+  text-decoration: underline overline;
+}
+
+li a {
+  color: red;
+}
+
+tr th {
+  color: red;
+}
+
+/*# sourceMappingURL=scssStyle.css.map */

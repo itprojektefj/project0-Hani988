@@ -1,0 +1,31 @@
+$mark: underline overline;
+
+%fontStyle-shared {
+  font-style: italic;
+  font-weight: bold;
+}
+
+%margin-shared {
+  margin: 10px;
+}
+
+body {
+  @extend %margin-shared;
+}
+
+h1 {
+	 text-decoration: $mark;
+}
+
+li{
+  a{
+    @extend %fontStyle-shared;
+    color: red;
+  }
+}
+tr{
+  th{
+    @extend %fontStyle-shared;
+    color: red;
+  }
+}
